@@ -1,0 +1,23 @@
+{
+  "name": "encurta",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Encurtador de URLs com analytics em tempo real (React + Node + SQLite)",
+  "workspaces": [
+    "server",
+    "client"
+  ],
+  "scripts": {
+    "dev": "concurrently -n api,web -c blue,magenta \"npm run dev -w server\" \"npm run dev -w client\"",
+    "build": "npm run build -w server && npm run build -w client",
+    "test": "npm test -w server",
+    "start": "npm start -w server",
+    "seed": "npm run seed -w server"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.0"
+  },
+  "engines": {
+    "node": ">=22.13"
+  }
+}
