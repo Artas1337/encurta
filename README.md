@@ -80,6 +80,10 @@ Variáveis de ambiente: `API_PORT`, `PUBLIC_URL` (domínio dos links curtos), `D
 - Domínio personalizado por usuário
 - Rate limit distribuído com Redis para rodar com várias instâncias
 
+## Licença
+
+MIT — veja [LICENSE](LICENSE).
+
 ---
 
 Feito por **Arthur Martins** · [LinkedIn](https://linkedin.com/in/arthur-martins-2547553b6) · [GitHub](https://github.com/Artas1337)
